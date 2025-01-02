@@ -1,6 +1,6 @@
 # Clef Client
 
-A Go client library for interacting with the Ethereum Clef external signer. This library provides a clean, type-safe interface to communicate with Clef through both HTTP JSON-RPC and Unix Domain Socket (IPC) protocols. It supports all major Clef operations including account management, transaction signing, and data signing following various Ethereum standards.
+A Go client library for interacting with the [Ethereum Clef external signer](https://geth.ethereum.org/docs/tools/clef/). This library provides a clean, type-safe interface to communicate with Clef through both HTTP JSON-RPC and Unix Domain Socket (IPC) protocols. It supports all major [Clef](https://github.com/ethereum/go-ethereum/tree/master/cmd/clef) operations including account management, transaction signing, and data signing following various Ethereum standards.
 
 ## Installation
 
