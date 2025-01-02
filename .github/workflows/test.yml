@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-and-run-tests:
-    name: Build and Run Tests (${{ matrix.os }}-${{ matrix.arch }})
-    runs-on: [ self-hosted, Linux, ${{ matrix.arch }} ]
+    name: "Build and Run Tests (${{ matrix.os }}-${{ matrix.arch }})"
+    runs-on: [ self-hosted, Linux, "${{ matrix.arch }}" ]
     strategy:
       matrix:
         arch: [ ARM64, X64 ]
