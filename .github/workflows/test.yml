@@ -9,10 +9,11 @@ on:
 jobs:
   build-and-run-tests:
     name: "Build and Run Tests (${{ matrix.os }}-${{ matrix.arch }})"
-    runs-on: [ self-hosted, Linux, "${{ matrix.arch }}" ]
+    runs-on: [ self-hosted, "${{ matrix.os }}", "${{ matrix.arch }}" ]
     strategy:
       matrix:
         arch: [ ARM64, X64 ]
+        os: [ Linux ]
     steps:
       - uses: actions/checkout@v3
 
