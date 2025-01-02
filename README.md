@@ -1,5 +1,9 @@
 # Clef Client
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/AxLabs/clef-client.svg)](https://pkg.go.dev/github.com/AxLabs/clef-client)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/AxLabs/clef-client)](https://go.dev/)
+[![CI Status](https://github.com/AxLabs/clef-client/workflows/Tests/badge.svg)](https://github.com/AxLabs/clef-client/actions)
+
 A Go client library for interacting with the [Ethereum Clef external signer](https://geth.ethereum.org/docs/tools/clef/). This library provides a clean, type-safe interface to communicate with Clef through both HTTP JSON-RPC and Unix Domain Socket (IPC) protocols. It supports all major [Clef](https://github.com/ethereum/go-ethereum/tree/master/cmd/clef) operations including account management, transaction signing, and data signing following various Ethereum standards.
 
 ## Installation
